@@ -24,6 +24,12 @@ The repository includes methods for:
 - Ensemble's basic statistics (Mean, Standard Deviation, Interquartile Range)
 - Meteorological skill score calculation (CRPS, FSS, SAL, Rank Histogram)
 
+Code release for the paper **"DA AGGIUNGERE"**
+
+Paper: [\AGGIUNGERE]()
+
+Data: [\AGGIUNGERE]()
+
 ---
 
 ## 📂 Repository Structure
@@ -39,12 +45,12 @@ This repository is organized into dedicated folders, each containing scripts for
 
 ---
 
-## ⚙️ Installation
+## ⚙️ How to run
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/<username>/nowcasting-evaluation-seveso.git
-cd nowcasting-evaluation-seveso
+git clone https://github.com/<username>/LDCast-GPTCast-performance-evaluation.git
+cd LDCast-GPTCast-performance-evaluation
 pip install -r requirements.txt
 ```
 
@@ -52,6 +58,6 @@ Or, with Conda:
 
 ```bash
 conda env create -f environment.yml
-conda activate nowcasting-eval
+conda activate LDCast-GPTCast-eval
 ```bash
 
