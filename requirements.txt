@@ -1,0 +1,19 @@
+# Requires Python 3.9 or higher
+
+numpy
+pandas
+xarray
+rioxarray
+rasterio
+geopandas
+matplotlib
+plotly
+contextily
+scipy
+scikit-image
+zarr
+loguru
+properscoring
+pysteps
+tqdm
+cartopy

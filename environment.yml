@@ -1,0 +1,26 @@
+name: LDCast-GPTCast-eval
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python>=3.9
+  - numpy
+  - pandas
+  - xarray
+  - rioxarray
+  - rasterio
+  - geopandas
+  - matplotlib
+  - plotly
+  - contextily
+  - scipy
+  - scikit-image
+  - zarr
+  - cartopy
+  - pip
+  - pip:
+      - loguru
+      - properscoring
+      - pysteps
+      - tqdm
