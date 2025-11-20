@@ -17,3 +17,4 @@ properscoring
 pysteps
 tqdm
 cartopy
+requests
