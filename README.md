@@ -42,7 +42,8 @@ Data: [\AGGIUNGERE]()
 
 This repository is organized into dedicated folders, each containing scripts for specific processing and analysis workflows. Below is a clear overview of each directory and its purpose.
 
-- [**ens/**](./ens) — contains *`{month}_{model}_ens`*, used to download **prediction files** and visualize all 20 ensemble members;
+- [**data/**](./data) - contains *`download_all`*, used to download **input** and **prediction files**, and shapefiles used in subsequent notebooks;
+- [**ens/**](./ens) — contains *`{month}_{model}_ens`*, used to concatenate **input** and **prediction files** and visualize all 20 ensemble members;
 - [**mean/**](./mean) — contains *`{month}_{model}_mean`*, used to compute the ensemble **mean**.
 - [**std/**](./std) — contains *`{month}_{model}_std`*, used to compute the ensemble **standard deviation**.
 - [**iqr/**](./iqr) — contains *`{month}_{model}_iqr`*, used to compute the ensemble **interquartile range** (IQR);
@@ -68,9 +69,14 @@ Or, with Conda:
 conda env create -f environment.yml
 conda activate LDCast-GPTCast-eval
 ```
-### Download prediction files
 
-Open the notebooks in the [`ens/`](./ens) folder and run them to download prediction files and visualize the ensemble members.
+### Download input and prediction files
+
+Open the notebook *`download_all`* in the [`data/`](./data) folder and download input and prediction files.
+
+### Concatenate input and prediction files
+
+Open the notebooks in the [`ens/`](./ens) folder and run them to concatenate input and prediction files and visualize the ensemble members.
 
 ### Compute ensemble statistics
 
