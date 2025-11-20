@@ -80,7 +80,7 @@ Open the notebooks in the [`ens/`](./ens) folder and run them to concatenate inp
 
 ### Compute ensemble statistics
 
-After running the notebooks in [`ens/`](./ens), run the scripts in [`mean/`](./mean), [`std/`](./std) and [`iqr/`](./iqr) folders to compute ensemble mean, standard deviation and interquartile range.
+After running the notebooks in [`ens/`](./ens), run the scripts in [`mean/`](./mean), [`std/`](./std) and [`iqr/`](./iqr) folders to compute ensemble mean, standard deviation and interquartile range. Note: if you are only interested in spatial metrics, running scripts in [`mean/`](./mean) is sufficient.
 
 ### Compute spatial metrics
 
