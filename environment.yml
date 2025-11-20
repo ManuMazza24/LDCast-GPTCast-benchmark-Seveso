@@ -18,6 +18,7 @@ dependencies:
   - scikit-image
   - zarr
   - cartopy
+  - requests
   - pip
   - pip:
       - loguru
