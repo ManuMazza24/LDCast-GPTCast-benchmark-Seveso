@@ -29,6 +29,7 @@ The repository includes methods for:
 - Visualization of radar precipitation forecasts vs observations
 - Ensemble's basic statistics (Mean, Standard Deviation, Interquartile Range)
 - Meteorological skill score calculation (CRPS, FSS, SAL, Rank Histogram)
+- Center of Mass and Cumulative Precipitation Analysis
 
 Code release for the paper **"DA AGGIUNGERE"**
 
@@ -47,8 +48,8 @@ This repository is organized into dedicated folders, each containing scripts for
 - [**mean/**](./mean) — contains *`{month}_{model}_mean`*, used to compute the ensemble **mean**.
 - [**std/**](./std) — contains *`{month}_{model}_std`*, used to compute the ensemble **standard deviation**.
 - [**iqr/**](./iqr) — contains *`{month}_{model}_iqr`*, used to compute the ensemble **interquartile range** (IQR);
-- [**com/**](./com) — contains *`{month}_ld_gpt_scores`*, used to calculate spatial metrics between observed and predicted rasters at the **meteorological context scale**;
-- [**com_bac/**](./com_bac) — contains *`{month}_ld_gpt_scores_bac`*, used to calculate spatial metrics between observed and predicted rasters at the **hydrological context scale**.
+- [**com/**](./com) — contains *`{month}_ld_gpt_scores`*, used to calculate spatial metrics between observed and predicted rasters at the **meteorological context scale** and **cumulative precipitation** over the basin;
+- [**com_bac/**](./com_bac) — contains *`{month}_ld_gpt_scores_bac`*, used to calculate spatial metrics between observed and predicted rasters at the **hydrological context scale** and **center of mass tracking**.
 
 ---
 
@@ -84,6 +85,6 @@ After running the notebooks in [`ens/`](./ens), run the scripts in [`mean/`](./m
 
 ### Compute spatial metrics
 
-Once ensemble statistics are calculated, you can run the scripts in [`com/`](./com) and [`com_bac/`](./com_bac) to compute spatial metrics at the meteorological and hydrological context scale.
+Once ensemble statistics are calculated, you can run the scripts in [`com/`](./com) and [`com_bac/`](./com_bac) to compute spatial metrics at the meteorological and hydrological context scale and to obtain Center of Mass Tracking and Cumulative Precipitation Analysis.
 
 ---
